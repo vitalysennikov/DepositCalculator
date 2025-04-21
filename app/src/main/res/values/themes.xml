@@ -1,5 +1,0 @@
-<resources>
-    <style name="Theme.DepositCalculator" parent="android:Theme.Material.Dark">
-        <!-- Без кастомных атрибутов -->
-    </style>
-</resources>
