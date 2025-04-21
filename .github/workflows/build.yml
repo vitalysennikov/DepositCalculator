@@ -17,6 +17,11 @@ jobs:
       - name: Grant permissions
         run: chmod +x gradlew
 
+      - name: Verify files
+        run: |
+          ls -la app/src/main/
+          ls -la app/src/main/res/values/
+
       - name: Build APK
         run: ./gradlew --info :app:assembleDebug
 
