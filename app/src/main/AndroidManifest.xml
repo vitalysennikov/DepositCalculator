@@ -5,7 +5,7 @@
         android:allowBackup="true"
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="Deposit Calculator"
-        android:theme="@android:style/Theme.Material.Dark">
+        android:theme="@android:style/Theme.Material.Light">
         
         <activity
             android:name=".MainActivity"
