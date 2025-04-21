@@ -17,10 +17,12 @@ jobs:
       - name: Grant permissions
         run: chmod +x gradlew
 
-      - name: Verify files
+      - name: Verify resources
         run: |
           ls -la app/src/main/
           ls -la app/src/main/res/values/
+          ls -la app/src/main/res/values/
+          cat app/src/main/res/values/themes.xml
 
       - name: Build APK
         run: ./gradlew :app:assembleDebug
